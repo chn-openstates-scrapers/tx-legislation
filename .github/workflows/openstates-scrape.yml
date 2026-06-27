@@ -36,6 +36,7 @@ jobs:
           commit-and-push: true
           force-update: ${{ inputs.force-update }}
           branch: main
+          docker-image: ghcr.io/govbot-openstates-scrapers/openstates-scrapers:tx-89r-backfill
           api-keys: |
             {
               "DC_API_KEY": "${{ secrets.DC_API_KEY }}",
