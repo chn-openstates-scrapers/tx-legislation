@@ -36,7 +36,7 @@ jobs:
           commit-and-push: true
           force-update: ${{ inputs.force-update }}
           branch: main
-          docker-image: openstates/scrapers:tx-89r-backfill
+          docker-image: openstates/scrapers:tx-891-backfill
           api-keys: |
             {
               "DC_API_KEY": "${{ secrets.DC_API_KEY }}",
